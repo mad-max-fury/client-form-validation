@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <form>
+        <div class="logo-wrapper">
+            <div class="logo">
+                <h2>sign-In</h2>
+            </div>
+        </div>
+        <div class="inputs">
+            <input type="email" name="email" id="email" placeholder="Enter Email or Phone" required>
+            <input type="text" name="Username" id="Username" placeholder="Username" required>
+            <input type="password" name="password" id="password" placeholder="Password" autocomplete="on" required>
+        </div>
+        <div class="sign-in-wrapper">
+            <button type="submit" onclick="Loginvalidation();" id="button-Login">
+                <h2> Sign-In</h2>
+            </button>
+        </div>
+        <div class="divider">
+            __________<h2>OR</h2>__________
+
+        </div>
+        <br>
+        <h4>Don't have an account? Sign-up below</h4>
+        <br>
+
+        <div class="Sign-up-wrapper">
+            <a href="signUp.html">
+                <button type="text" id="button-sign-up">
+                    <h2> Sign-Up</h2>
+                </button>
+            </a>
+        </div>
+    </form>
+    <script src="sign-in.js"></script>
+</body>
+
+</html>
