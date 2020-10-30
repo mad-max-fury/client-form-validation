@@ -1,0 +1,17 @@
+login page
+- email or phone
+- username
+- password
+-link(git, facebook, twitter)
+
+
+SignUP page
+- email or phone
+- create password
+- confirm password
+
+data
+- surname
+- name
+- age
+- location

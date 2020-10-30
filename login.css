@@ -1,0 +1,97 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body{
+    background: #ddd;
+    display : flex;
+
+}
+form{
+    
+    display : flex;
+    flex-direction: column;
+    width: 28rem;
+    height: 28rem;
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 20vh;
+    border-radius: 3px;
+    /* border: yellow 1px solid; */
+
+}
+.logo-wrapper{
+    height: 15%;
+    width: 100%;
+    /* border: 1px solid brown; */
+    align-content: center;
+    justify-content: center;
+}
+.logo{
+    width: 8rem;
+    height: 2rem;
+    margin: auto;
+    margin-top: 16px;
+    text-align: center;
+
+}
+.inputs{
+    /* border : 1px solid red; */
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.inputs > input {
+    width: 22rem;
+    height: 2rem;
+    margin: auto;
+    border: none;
+    border-bottom: 1px solid black;
+    
+}
+.sign-in-wrapper{
+    display: flex;
+    width: 100%;
+    height: 2rem;
+    margin-top: 0.4rem;
+}
+#button-Login{
+    /* border: 1px solid blue; */
+    
+    width: 10rem;
+    height : 2rem;
+    margin: auto;
+    border-radius: 2rem;
+    text-align: center;
+}
+#button-sign-up{
+    width: 10rem;
+    height : 2rem;
+    margin: auto;
+    border-radius: 2rem;
+    text-align: center;
+}
+.divider{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 0.6rem;
+    /* border: 1px solid palevioletred; */
+}
+.Sign-up-wrapper{
+    display: flex;
+    width: 100%;
+    height: 2rem;
+    margin-top: 0.4rem;
+}
+form > h4 {
+    text-align: center;
+    color: gray;
+}
+.Sign-up-wrapper > a {
+    margin: auto;
+}
