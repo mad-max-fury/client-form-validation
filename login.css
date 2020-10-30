@@ -65,6 +65,7 @@ form{
     width: 10rem;
     height : 2rem;
     margin: auto;
+    border:none;
     border-radius: 2rem;
     text-align: center;
 }
